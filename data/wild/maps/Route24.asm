@@ -1,25 +1,25 @@
 Route24Mons:
 	db 25 ; grass encounter rate
 IF DEF(_RED)
-	db  7, WEEDLE
-	db  8, KAKUNA
-	db 12, PIDGEY
-	db 12, ODDISH
-	db 13, ODDISH
-	db 10, ABRA
-	db 14, ODDISH
+	db 100, BEEDRILL
+	db 100, BEEDRILL
+	db 100, PIDGEOT
+	db 100, VILEPLUME
+	db 100, VILEPLUME
+	db 100, ALAKAZAM
+	db 100, VILEPLUME
 ENDC
 IF DEF(_BLUE)
-	db  7, CATERPIE
-	db  8, METAPOD
-	db 12, PIDGEY
-	db 12, BELLSPROUT
-	db 13, BELLSPROUT
-	db 10, ABRA
-	db 14, BELLSPROUT
+	db 100, BUTTERFREE
+	db 100, BUTTERFREE
+	db 100, PIDGEOT
+	db 100, VICTREEBEL
+	db 100, VICTREEBEL
+	db 100, ALAKAZAM
+	db 100, VICTREEBEL
 ENDC
-	db 13, PIDGEY
-	db  8, ABRA
-	db 12, ABRA
+	db 100, PIDGEOT
+	db 100, ALAKAZAM
+	db 100, ALAKAZAM
 
 	db 0 ; water encounter rate
