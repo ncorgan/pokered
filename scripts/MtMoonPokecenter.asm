@@ -43,7 +43,7 @@ MagikarpSalesmanText:
 	ld hl, .NoMoneyText
 	jr .printText
 .enoughMoney
-	lb bc, MAGIKARP, 5
+	lb bc, GYARADOS, 100
 	call GivePokemon
 	jr nc, .done
 	xor a

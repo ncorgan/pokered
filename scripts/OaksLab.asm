@@ -922,7 +922,7 @@ OaksLabMonChoiceMenu:
 	call PrintText
 	xor a ; PLAYER_PARTY_DATA
 	ld [wMonDataLocation], a
-	ld a, 5
+	ld a, 100
 	ld [wCurEnemyLVL], a
 	ld a, [wcf91]
 	ld [wd11e], a

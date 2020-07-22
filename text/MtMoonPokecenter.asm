@@ -22,7 +22,7 @@ _MagikarpSalesmanText1::
 	cont "just for you!"
 
 	para "I'll let you have"
-	line "a swell MAGIKARP"
+	line "a swell GYARADOS"
 	cont "for just ¥500!"
 	cont "What do you say?"
 	done

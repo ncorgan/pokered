@@ -239,7 +239,7 @@ FightingDojoText6:
 	jr nz, .done
 	ld a, [wcf91]
 	ld b, a
-	ld c, 30
+	ld c, 100
 	call GivePokemon
 	jr nc, .done
 
@@ -274,7 +274,7 @@ FightingDojoText7:
 	jr nz, .done
 	ld a, [wcf91]
 	ld b, a
-	ld c, 30
+	ld c, 100
 	call GivePokemon
 	jr nc, .done
 	SetEvents EVENT_GOT_HITMONCHAN, EVENT_DEFEATED_FIGHTING_DOJO
