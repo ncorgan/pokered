@@ -400,7 +400,7 @@ Sony2AI:
 	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUsePotion
+	jp AIUseSuperPotion
 
 Sony3AI:
 	cp 13 percent - 1
@@ -480,12 +480,6 @@ AIUseFullRestore:
 	ld [wHPBarMaxHP+1], a
 	ld [wEnemyMonHP], a
 	jr AIPrintItemUseAndUpdateHPBar
-
-AIUsePotion:
-; enemy trainer heals his monster with a potion
-	ld a, POTION
-	ld b, 20
-	jr AIRecoverHP
 
 AIUseSuperPotion:
 ; enemy trainer heals his monster with a super potion

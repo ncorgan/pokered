@@ -981,7 +981,7 @@ OaksLabText5:
 	predef DisplayDexRating
 	jp .asm_1d2ed
 .asm_1d279
-	ld b, POKE_BALL
+	ld b, GREAT_BALL
 	call IsItemInBag
 	jr nz, .asm_1d2e7
 	CheckEvent EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE
@@ -1021,7 +1021,7 @@ OaksLabText5:
 .asm_1d2d0
 	CheckAndSetEvent EVENT_GOT_POKEBALLS_FROM_OAK
 	jr nz, .asm_1d2e7
-	lb bc, POKE_BALL, 5
+	lb bc, GREAT_BALL, 5
 	call GiveItem
 	ld hl, OaksLabGivePokeballsText
 	call PrintText

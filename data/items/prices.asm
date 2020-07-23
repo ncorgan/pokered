@@ -17,7 +17,7 @@ ItemPrices::
 	money 3000  ; FULL_RESTORE
 	money 2500  ; MAX_POTION
 	money 1500  ; HYPER_POTION
-	money 700   ; SUPER_POTION
+	money 300   ; SUPER_POTION
 	money 300   ; POTION
 	money 0     ; BOULDERBADGE
 	money 0     ; CASCADEBADGE
